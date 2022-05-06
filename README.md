@@ -17,13 +17,17 @@ $ python3 -m venv venv
 ```
 3. 激活虚拟环境
 ```
+macos / linux:
 $ source venv/bin/activate
 
+windows:
+> venv\Scripts\activate.bat
 ```
 4. 安装必要的python模块
 ```
 pip3 install -r requiremnts
 ```
+**如果xlrd模块安装的是1.2.0以后的版本，由于该模块1.2.0以后版本不再支持xlsx格式文件，需要使用xls格式文件。**
 
 5. 在users.xlsx文件中根据示例创建账号数据
 示例：
@@ -52,4 +56,4 @@ python3 main.py
 ```
 
 ## 注意
-### 该操作有风险，本脚本仅为学习使用，不建议在生产环境中使用，如在生产环境中使用，自行承担风险！！
+**<font color="red">该操作有风险，本脚本仅为学习使用，不建议在生产环境中使用，如在生产环境中使用，自行承担风险！！</font>**
