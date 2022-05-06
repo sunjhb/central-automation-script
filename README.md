@@ -11,7 +11,7 @@ git clone https://github.com/sunjhb/central-automation-script
 ```
   或者手动下载.zip文件
 
-2. 在脚本根目录启用虚拟环境 (参考： https://docs.python.org/zh-cn/3/library/venv.html)，确保Python3.x已经在系统里安装
+2. 在脚本根目录启用虚拟环境 (参考： https://docs.python.org/zh-cn/3/library/venv.html) ,确保Python3.x已经在系统里安装
 ```
 $ python3 -m venv venv
 ```
