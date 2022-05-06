@@ -7,7 +7,7 @@
 ## 如何使用
 1. 下载脚本到本地
 ```
-git clone git@github.com:sunjhb/central-automation-script.git
+git clone https://github.com/sunjhb/central-automation-script
 ```
   或者手动下载.zip文件
 
