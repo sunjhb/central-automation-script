@@ -25,7 +25,7 @@ windows:
 ```
 4. 安装必要的python模块
 ```
-pip3 install -r requiremnts
+pip3 install -r requirement.txt
 ```
 **如果xlrd模块安装的是1.2.0以后的版本，由于该模块1.2.0以后版本不再支持xlsx格式文件，需要使用xls格式文件。**
 
